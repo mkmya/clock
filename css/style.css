@@ -54,7 +54,6 @@ header span {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    color: white;
     border: 2px solid white;
     z-index: 999;
     width: 270px;
@@ -100,7 +99,7 @@ footer a {
     }
 
     .button-clock {
-        width: 35vh;
+        width: 40vh;
         height: 8vh;
         font-size: 14px;
         flex-wrap: wrap;

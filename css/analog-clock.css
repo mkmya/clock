@@ -4,6 +4,12 @@
     justify-content: center;
     min-width: 80%;
     min-height: 80vh;    
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#analog-clock-button a{
+    color: #0CF4C7;
 }
 
 .container-analog-clock {

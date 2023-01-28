@@ -1,0 +1,135 @@
+#main-analog {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 80%;
+    min-height: 80vh;    
+}
+
+.container-analog-clock {
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+    border-radius: 500px;
+    border: 4px solid rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    text-align: center;
+    color: #fff;
+}
+
+.number-1 {
+    transform: rotate(30deg);
+}
+.number-2 {
+    transform: rotate(60deg);
+}
+.number-3 {
+    transform: rotate(90deg);
+}
+.number-4 {
+    transform: rotate(120deg);
+}
+.number-5 {
+    transform: rotate(150deg);
+}
+.number-6 {
+    transform: rotate(180deg);
+}
+.number-7 {
+    transform: rotate(210deg);
+}
+.number-8 {
+    transform: rotate(240deg);
+}
+.number-9 {
+    transform: rotate(270deg);
+}
+.number-10 {
+    transform: rotate(300deg);
+}
+.number-11 {
+    transform: rotate(330deg);
+}
+.number-12 {
+    transform: rotate(360deg);
+}
+
+.hand {
+    background-color: #fff;
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+#second-hand {
+    width: 3px;
+    height: 200px;
+}
+
+#minute-hand {
+    width: 6px;
+    height: 180px;
+}
+
+#hour-hand {
+    width: 10px;
+    height: 160px;
+}
+
+.center {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+@media (max-width: 570px) {
+    #main-analog {
+        min-width: 80%;
+        min-height: 60vh;    
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    .container-analog-clock {
+      height: 30vh;
+      width: 30vh;
+    }
+    
+    #second-hand {
+        width: 2px;
+        height: 70px;
+    }
+    
+    #minute-hand {
+        width: 4px;
+        height: 65px;
+    }
+    
+    #hour-hand {
+        width: 6px;
+        height: 60px;
+    }
+    .center {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+    }
+        
+    .number {
+        font-size: .9rem;
+        font-weight: bold;
+    }
+  }
